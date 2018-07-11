@@ -1,0 +1,8 @@
+node_modules/
+antiquated/
+tsconfigAutoGen.json
+*creds*
+/app/*creds*
+/dist/*creds*
+/app/*swp*
+/screenshots/dashboard.png

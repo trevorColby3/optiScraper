@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "downlevelIteration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [ "ES6", "DOM", "DOM.Iterable", "esnext.asynciterable" ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "paths": {
+            "*": [
+                "*",
+                "node_modules/@types/*",
+                "node_modules/*"
+            ],
+            "NodeModules:*": ["node_modules/*"]
+        },
+        "removeComments": false,
+        "rootDirs": [ "app", "test" ],
+        "sourceMap": true,
+        "target": "ES6",
+        "typeRoots": [ "./node_modules/@types", "./typings" ]
+    },
+    "compileOnSave": false,
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "app/**/*.ts",
+        "node_modules/@types/*",
+        "test/fixtures/**/*.ts",
+        "test/matchers/**/*.ts",
+        "test/spec/**/*.ts"
+    ]
+}
