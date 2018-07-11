@@ -1,4 +1,14 @@
 # optiScraper
+### IMPORTANT: 
+- This repository is deprecated. The production version was moved to a private repository. To protect user sensitive information.
+- This repository is also out of date and the screencapture functionality lacks: 
+ - Extensive error checking
+ - Progress Logging
+ - Network error handling
+ - Auto relaunch
+- Missing aspects were added and code format was improved upon in version 2.0 housed in private repo
+            
+
 A puppeteer driver scraper that accesses Opti Dashboards and saves snapshots as PDFs
 
  Build tool depends on on v10.4.0 version of node. It is helpful to use `nvm` if you requrie multiple versions of node for different projects. See `.nvmrc` file. 
